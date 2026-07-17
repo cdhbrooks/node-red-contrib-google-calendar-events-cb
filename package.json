@@ -1,5 +1,5 @@
 {
-  "name": "cdhbrooks/node-red-contrib-google-calendar-events-cb",
+  "name": "node-red-contrib-google-calendar-events-cb",
   "version": "0.0.2",
   "description": "Hopefully secure and robust Node-RED node to retrieve Google Calendar events between dates",
   "main": "google-calendar-events.js",
