@@ -19,7 +19,7 @@
             const node = this;  // Reference to the current node instance
             const location = window.location;
             // Construct the redirect URI based on the current window's location
-            const redirectUri = location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '') + '/google-calendar/auth/callback';
+            const redirectUri = location.protocol + '//' + location.hostname + 'nip.io' + (location.port ? ':' + location.port : '') + '/google-calendar/auth/callback';
 
             // Set the redirect URI field in the UI
             $("#node-config-input-redirectUri").val(redirectUri);
